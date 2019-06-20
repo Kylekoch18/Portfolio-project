@@ -10,7 +10,6 @@ Here is some normal text. A paragraph, even!
 
 I like playing hockey.
 
-**I like playing Volleyball.**
 
 **_This text is in both._**
 
