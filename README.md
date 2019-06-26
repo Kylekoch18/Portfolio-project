@@ -1,29 +1,32 @@
-# Kyle Koch
+<title>Kyle Koch</title>
 
-## I am a student at SavvyCoders.
+<h1> I am student at SavvyCoders.</h1>
 
-### this is my second day...
+<h2> this is my second day...</h2>
 
 ###### 
 
-Here is some normal text. A paragraph, even!
+<p>Here is some normal text. A paragraph, even!</p>
 
-I like playing hockey.
+<p>I like playing hockey.
 
 
 **_This text is in both._**
 
-~~Coding is for losers.~~
+<del>~~Coding is for losers.~~</del>
 
-Hi, I'm Kyle and I enjoy coding!
+<p>Hi, I'm Kyle and I enjoy coding!</p>
 
-- Item
-- Item
-- Another item
-
+<ul>
+<li> Item <li>
+<li>- Item<li>
+<li>- Another item<li>
+</ul>
+<ul>
 1. peppers
 2. milk
 3. bananas
+</ul>
 
 w/ sub-lists
 
