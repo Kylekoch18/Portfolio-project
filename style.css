@@ -5,6 +5,10 @@ body {
     font-size: 20px;
 }
 
+main {
+
+}
+
 h1 {
     color: green;
     width: 1px;
@@ -12,7 +16,7 @@ h1 {
 }
 
 p {
-font-size: 30px;
+font-size: 20px;
 }
 
 font-size: 20px;
