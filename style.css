@@ -12,7 +12,7 @@ main {
 h1 {
     color: green;
     width: 1px;
-    font-size: 25
+    font-size: 40px;
 }
 
 p {
@@ -25,4 +25,10 @@ h2 {
     font-size: 15
 }
 
+figure {
+    margin: 25px auto;
+    width: 50px;
+    text-align: center
+}
 
+/* Responsive image is limited to the width of its parent */
