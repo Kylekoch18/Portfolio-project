@@ -9,6 +9,10 @@ main {
 
 }
 
+li {
+    list-style-type: none;
+}
+
 h1 {
     color: green;
     width: 1px;
