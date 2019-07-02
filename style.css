@@ -14,9 +14,7 @@ li {
 
 h1 {
   color: green;
-  width: 1px;
   font-size: 40px;
-  text-align: center;
 }
 
 p {
@@ -84,13 +82,20 @@ ul {
 
 /* hero */
 header {
-    display:flex;
+    background-image: url(https://picsum.photos/960/550);
+    background-size: cover;
     height: 80vh;
+    /* background-repeat: no-repeat;
+       background-position: top center; */
+}
+
+header div {
+    background: rgba(178, 184, 196, 0.6);
+    width: 100%;
+}
+header, header div {
+    align-items: center;
+    display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-image: url(https://picsum.photos/960/550);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
 }
