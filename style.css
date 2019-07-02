@@ -16,6 +16,7 @@ h1 {
   color: green;
   width: 1px;
   font-size: 40px;
+  text-align: center;
 }
 
 p {
@@ -80,3 +81,16 @@ ul {
 }
 
 /* Responsive image is limited to the width of its parent */
+
+/* hero */
+header {
+    display:flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://picsum.photos/960/550);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
