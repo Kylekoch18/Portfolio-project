@@ -1,38 +1,82 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background: rgba(26, 91, 199, 0.6);
-    color: red;
-    font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  background: rgba(178, 184, 196, 0.6);
+  color: red;
+  font-size: 20px;
 }
 
 main {
-
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 h1 {
-    color: green;
-    width: 1px;
-    font-size: 40px;
+  color: green;
+  width: 1px;
+  font-size: 40px;
 }
 
 p {
-font-size: 20px;
+  font-size: 20px;
 }
 
-font-size: 20px;
+
 
 h2 {
-    font-size: 15
+  font-size: 15;
 }
 
 figure {
-    margin: 25px auto;
-    width: 50px;
-    text-align: center
+  margin: 25px auto;
+  width: 100vw;
+  text-align: center;
+}
+
+section {
+  font-size: 10px;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+    background-color: white;
+}
+
+nav > ul {
+    display: flex;
+    margin: 0;
+    padding: 10px 0;
+    background: white;
+}
+
+ul {
+    padding: 0;
+    justify-content: space-between
+}
+
+
+.dropdown ul {
+    display: none;
+    border-radius: 0 0 3px 3px;
+    display: none;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 8px;
+    position: absolute;
+        
+}
+
+
+
+
+/* generally, 'focus' goes with 'hover'*/
+.dropdown:focus ul, 
+.dropdown:hover ul {
+    display: flex;
+    flex-direction: column;
 }
 
 /* Responsive image is limited to the width of its parent */
