@@ -160,4 +160,5 @@ input [type="radio"] {
   flex-direction: column;
   display:flex;
   margin: 5px;
+  
 }
