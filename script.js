@@ -1,40 +1,23 @@
-// ************ Homework *************
-// Creat a greeter function for you project that asks for a users name//
-// stores that name in a variable, and then displays the //
-// variable as the <H1> on the homepage //
-
-
-/* 
-1- create a variable
-2- assigned to prompt("What is your name? ")
-3- use document.querySelectors to replace the H1 on your page to the variable above  
-4- Have your heading be a greeting, "Hello, ______ , Welcom to the page" Concantenate the variables and strings
+/*
+1. ask for a first name and last name separately
+2.if either is blank, continually re-ask for the name if person does not enter one.
+3. inject name as a <p> inside #greeting.
 */
+let fname = prompt('What is your first name?');
+let lname = prompt('what is your last name?');
 
-// let name = prompt("What is your name?");
-
-// OLD WAY ES5 --- let fullname = fname + " " + lname;
-// NEW WAY ES6 ---let fullname = `Hello, ${fname} ${lname}! Welcome!`
-
-
-//const h1 = document.querySelector(`h1`)
-//h1.textContent = `Hello, ${name}
-
-const name = prompt(`What is your name?`);
-
-
-const x = 3;
-const dessert = 'icecream';
-
-if(x === 3){
-    console.log('3 is the lucky number');
-}
-else if(x === 7){
-    console.log('wrong numba');
-}
-else {
-    console.log('no sir');
+while(!fname || !lname){
+    fname = prompt('What is your first name?');
+    lname = prompt('What is your last name?');
 }
 
-document.querySelector(`h1`).textContent = `Hello, ${name}`;
+
+
+
+
+
+
+document.querySelector('#greeting').textContent = `<p>Hello, ${fname} ${lname}</p>`;
+
+
 
