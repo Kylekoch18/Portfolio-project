@@ -1,5 +1,5 @@
-export default 
-`<footer>
+export default ` 
+<footer>
     <ul>
       <li> <a href="https://github.com/kylekoch18" target="_blank">
       <span class="fab fa-github-square"></span></a></li>
