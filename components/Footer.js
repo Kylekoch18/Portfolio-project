@@ -1,4 +1,5 @@
-export default ` 
+export default function(state) { 
+  return ` 
 <footer>
     <ul>
       <li> <a href="https://github.com/kylekoch18" target="_blank">
@@ -13,3 +14,4 @@ export default `
 </address>
     </footer>
     `;
+}
