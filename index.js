@@ -23,6 +23,15 @@ function render(state) {
     ${Main(state)}
     ${Footer(state)}
     `;
+    
+    const navItems = document.querySelectorAll("nav > ul > li:not(.dropdown)");
+
+navItems.forEach(function(navItem) {
+  navItem.addEventListener('click', function() {
+    event.preventDefault();
+    render(states[event.target.textContent.toLowerCase()]);
+  });
+});
 }
 
 // to render a page. we pass in a piece of state
